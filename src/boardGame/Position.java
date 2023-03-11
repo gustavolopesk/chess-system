@@ -5,18 +5,18 @@ public class Position {
     private int row;
     private int column;
 
-    public Position(int pow, int column) {
+    public Position(int row, int column) {
         super();
-        this.row = pow;
+        this.row = row;
         this.column = column;
     }
 
-    public int getPow() {
+    public int getRow() {
         return row;
     }
 
-    public void setPow(int pow) {
-        this.row = pow;
+    public void setRow(int row) {
+        this.row = row;
     }
 
     public int getColumn() {
